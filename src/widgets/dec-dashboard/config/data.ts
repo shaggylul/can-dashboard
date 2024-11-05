@@ -21,7 +21,7 @@ interface Data {
   engineSpeed: number;
   fuelEco: number;
   fuelRate: number;
-  fuel: number;
+  // fuel: number;
   speed: number;
 }
 
@@ -31,7 +31,7 @@ export const data: Data[] = arr.map((_, idx) => {
     engineSpeed: decEngineSpeed[idx],
     fuelEco: decFuelEco[idx],
     fuelRate: decFuelRate[idx],
-    fuel: decFuel[idx],
+    // fuel: decFuel[idx],
     speed: decSpeed[idx],
   };
 });

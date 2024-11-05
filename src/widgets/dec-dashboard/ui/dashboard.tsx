@@ -19,11 +19,11 @@ const dashboards = [
     name: "fuelRate",
     color: "red.6"
   },
-  {
-    label:"Топливо",
-    name: "fuel",
-    color: "orange.6"
-  },
+  // {
+  //   label:"Топливо",
+  //   name: "fuel",
+  //   color: "orange.6"
+  // },
   {
     label:"Скорость",
     name: "speed",
