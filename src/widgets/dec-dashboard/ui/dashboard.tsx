@@ -32,7 +32,7 @@ const dashboards = [
 ];
 
 export const Dashboard = () => {
-  const minWidth = data.length * 100;
+  const minWidth = data.length*10;
 
   return (
     <Flex gap={32} direction="column">
@@ -41,10 +41,10 @@ export const Dashboard = () => {
           <Title>{ dashboard.label}</Title>
           <ScrollArea scrollbars="x">
             <AreaChart
-              h={1024}
+              h={768}
               w={minWidth}
               data={data}
-              dataKey="idx"
+              dataKey="ms"
               series={[dashboard]}
               curveType="linear"
               tickLine="none"
