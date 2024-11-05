@@ -4,11 +4,11 @@ import { AreaChart } from "@mantine/charts";
 import { data } from "../config/data";
 
 const dashboards = [
-  {
-    label:"Скорость двигателя",
-    name: "engineSpeed",
-    color: "teal.6"
-  },
+  // {
+  //   label:"Скорость двигателя",
+  //   name: "engineSpeed",
+  //   color: "teal.6"
+  // },
   {
     label:"Экономия топлива",
     name: "fuelEco",
@@ -19,11 +19,11 @@ const dashboards = [
     name: "fuelRate",
     color: "red.6"
   },
-  {
-    label:"Топливо",
-    name: "fuel",
-    color: "orange.6"
-  },
+  // {
+  //   label:"Топливо",
+  //   name: "fuel",
+  //   color: "orange.6"
+  // },
   {
     label:"Скорость",
     name: "speed",
@@ -32,7 +32,7 @@ const dashboards = [
 ];
 
 export const Dashboard = () => {
-  const minWidth = data.length * 100;
+  const minWidth = data.length * 10;
 
   return (
     <Flex gap={32} direction="column">
